@@ -24,7 +24,7 @@ The dataset used for this analysis was sourced from the data provided by Alex th
 
 4. Data Scientists earn an average salary of approximately $28,000 higher than other job roles.
 
-5.Men survey takers were 75%, but surprisingly the average salary of women was 51%, which is more than the average salary of men.
+5. Men survey takers were 75%, but surprisingly the average salary of women was 51%, which is more than the average salary of men.
 ## Data Visualization
 To understand the data professional landscape, I created a comprehensive dashboard using Power BI. The dashboard showcases the results of Data Professional Survey Breakdown, providing fascinating insights into various aspects of the industry.
 
