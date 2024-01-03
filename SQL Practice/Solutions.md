@@ -121,7 +121,10 @@ from sales;
 	select s.SaleDate, s.Amount, p.Salesperson
 	from sales as s
 	join people as p on p.SPID = s.SPID;
-	
+```
+
+**Left Join**	
+```
 	select s.SaleDate, s.Amount, pr.Product
 	from sales as s
 	left join products as pr on pr.PID = pr.PID;
@@ -131,12 +134,4 @@ from sales;
 	join people as p on p.SPID = s.SPID
 	join products as pr on pr.PID = pr.PID;
 	
-	select s.SaleDate, s.Amount, p.Salesperson,pr.product,p.Team
-	from sales as s
-	join people as p on p.SPID = s.SPID
-	join products as pr on pr.PID = pr.PID
-	join geo as g on g.GeoID = s.GeoID
-	where s.Amount<500
-	and p.Team = 'delish'
-	and g.Geo in ('New Zealand','India')
 ```
