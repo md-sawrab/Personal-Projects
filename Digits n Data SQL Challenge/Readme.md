@@ -2,6 +2,22 @@
 
 ### Tools Used :- My SQL 
 
+## Tables
+
+- Stations
+
+- Hosts
+
+- Shows
+
+- Partnerships
+
+- ShowPartnerships
+
+- Awards
+
+- OnlinePresence
+
 ### Concepts used :-
 
 - Group By 
